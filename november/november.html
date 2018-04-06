@@ -5,6 +5,9 @@
   <link href="../css/navbar_styles.css" type="text/css" rel='stylesheet'>
   <link href="../css/calendar_title_styles.css" type="text/css" rel='stylesheet'>
   <link href="../css/calendar_styles.css" type="text/css" rel='stylesheet'>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js">
+  </script>
 </head>
 <body>
   <nav id="navbar">
@@ -40,10 +43,79 @@
       <li class="fina year-name">2017</li>
     </ul>
     <ul class='day-changers'>
-      <li class='day-changer'><button onclick="changeColor()"><</button></li>
-      <li class='day-changer'><button onclick="changeColor()">Today</button></li>
-      <li class='day-changer'><button onclick="changeColor()">></button></li>
+      <li class='day-changer'><a href="../october/october.html" class="button"><</a></li>
+      <li class='day-changer'><button >Today</button></li>
+      <li class='day-changer'><button >></button></li>
     </ul>
+  </div>
+  <div id="event-form-window" >
+    <form id="event-form">
+      <input id="event-title" type="text" value="New Event"><br>
+      <input id="event-location" type="text" value="Add Location"></br>
+      Start Time
+      <select id="start-time" size="1">
+        <option value="1:00">1:00</option>
+        <option value="1:30">1:30</option>
+        <option value="2:00">2:00</option>
+        <option value="2:30">2:30</option>
+        <option value="3:00">3:00</option>
+        <option value="3:30">3:30</option>
+        <option value="4:00">4:00</option>
+        <option value="4:30">4:30</option>
+        <option value="5:00">5:00</option>
+        <option value="5:30">5:30</option>
+        <option value="6:00">6:00</option>
+        <option value="6:30">6:30</option>
+        <option value="7:00">7:00</option>
+        <option value="7:30">7:30</option>
+        <option value="8:00">8:00</option>
+        <option value="8:30">8:30</option>
+        <option value="9:00">9:00</option>
+        <option value="9:30">9:30</option>
+        <option value="10:00">10:00</option>
+        <option value="10:30">10:30</option>
+        <option value="11:00">11:00</option>
+        <option value="11:30">11:30</option>
+        <option value="12:00">12:00</option>
+        <option value="12:30">12:30</option>
+      </select>
+      <select id="start-time-am">
+        <option value="AM">AM</option>
+        <option value="PM">PM</option>
+      </select></br>
+      End Time
+      <select id="end-time" size="1">
+        <option value="1:00">1:00</option>
+        <option value="1:30">1:30</option>
+        <option value="2:00">2:00</option>
+        <option value="2:30">2:30</option>
+        <option value="3:00">3:00</option>
+        <option value="3:30">3:30</option>
+        <option value="4:00">4:00</option>
+        <option value="4:30">4:30</option>
+        <option value="5:00">5:00</option>
+        <option value="5:30">5:30</option>
+        <option value="6:00">6:00</option>
+        <option value="6:30">6:30</option>
+        <option value="7:00">7:00</option>
+        <option value="7:30">7:30</option>
+        <option value="8:00">8:00</option>
+        <option value="8:30">8:30</option>
+        <option value="9:00">9:00</option>
+        <option value="9:30">9:30</option>
+        <option value="10:00">10:00</option>
+        <option value="10:30">10:30</option>
+        <option value="11:00">11:00</option>
+        <option value="11:30">11:30</option>
+        <option value="12:00">12:00</option>
+        <option value="12:30">12:30</option>
+      </select>
+      <select id="end-time-am">
+        <option value="AM">AM</option>
+        <option value="PM">PM</option>
+      </select></br>
+      <input id="submit" type="submit">
+    </form>
   </div>
   <div class="calendar-body">
     <table class='calendar'>

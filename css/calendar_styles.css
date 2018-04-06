@@ -1,3 +1,32 @@
+#event-form-window{
+  display: none;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 500px;
+  background-color: rgb(237,238,239);
+  border: 2px solid rgb(187,186,187);
+}
+
+#event-form{
+  padding: 2px;
+  font-size: 12px;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#event-title{
+  margin-left: 2px;
+  font-size: 20px;
+}
+
+#event-location{
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+
+option{
+  padding: 0;
+  margin: 0;
+}
 .calendar-body{
   display: flex;
   width: 100%;

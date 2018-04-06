@@ -53,3 +53,14 @@ li.day-changer{
 li.day-changer button{
   font-size: 13px;
 }
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    font-size: 13px;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    color: initial;
+}
