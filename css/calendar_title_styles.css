@@ -1,0 +1,25 @@
+.calendar-title-bar{
+  background-color: rgb(255,255,255);
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.calendar-title-bar ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.month-details li{
+  padding-top: 0px;
+  line-height: 40px;
+}
+
+.month-name{
+  float: left;
+}
+
+.year-name{
+  float: left;
+}
