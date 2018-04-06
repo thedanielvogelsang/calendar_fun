@@ -42,6 +42,15 @@ li.bold{
   float: left;
 }
 
+ul.day-changers{
+  margin-right: 20px;
+}
+
 li.day-changer{
   float: left;
+  margin-top: 10px;
+}
+
+li.day-changer button{
+  font-size: 13px;
 }
