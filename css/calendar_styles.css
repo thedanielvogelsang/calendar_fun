@@ -1,0 +1,30 @@
+.calendar-body{
+  display: flex;
+  width: 100%;
+}
+
+table.calendar{
+  display: table;
+  width: 100%;
+  text-align: right;
+}
+
+.light-font{
+  color: rgb(170,170,170);
+}
+
+td{
+  border: 1px solid rgb(187,186,187);
+  height: 150px;
+  max-width: 100px;
+  min-width: 100px;
+  margin: 0;
+  vertical-align: top;
+}
+
+td.weekend{
+  background-color: rgb(245,245,245)
+}
+td.weekday{
+  background-color: rgb()
+}

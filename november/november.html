@@ -3,6 +3,8 @@
 <head>
   <title>November Page</title>
   <link href="../css/navbar_styles.css" type="text/css" rel='stylesheet'>
+  <link href="../css/calendar_title_styles.css" type="text/css" rel='stylesheet'>
+  <link href="../css/calendar_styles.css" type="text/css" rel='stylesheet'>
 </head>
 <body>
   <nav id="navbar">
@@ -33,8 +35,82 @@
   </nav>
   </nav>
   <div class="calendar-title-bar">
+    <ul class="month-details">
+      <li class="bold month-name">November</li>
+      <li class="fina year-name">2017</li>
+    </ul>
+    <ul class='day-changers'>
+      <li class='day-changer'><button onclick="changeColor()"><</button></li>
+      <li class='day-changer'><button onclick="changeColor()">Today</button></li>
+      <li class='day-changer'><button onclick="changeColor()">></button></li>
+    </ul>
   </div>
   <div class="calendar-body">
+    <table class='calendar'>
+      <tr class='weekday-headers'>
+        <th class="light-font">Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th class="light-font">Sat</th>
+      </tr>
+      <tr>
+        <td class="weekend light-font">29</td>
+        <td class="weekday light-font">30</td>
+        <td class="weekday light-font">Oct 31</td>
+        <td class="weekday">Nov 1</td>
+        <td class="weekday">2</td>
+        <td class="weekday">3</td>
+        <td class="weekend">4</td>
+      </tr>
+      <tr>
+        <td class='weekend'>5</td>
+        <td class='weekday'>6</td>
+        <td class='weekday'>7</td>
+        <td class='weekday'>8</td>
+        <td class='weekday'>9</td>
+        <td class='weekday'>10</td>
+        <td class='weekend'>11</td>
+      </tr>
+      <tr>
+        <td class='weekend'>12</td>
+        <td class='weekday'>13</td>
+        <td class='weekday'>14</td>
+        <td class='weekday'>15</td>
+        <td class='weekday'>16</td>
+        <td class='weekday'>17</td>
+        <td class='weekend'>18</td>
+      </tr>
+      <tr>
+        <td class='weekend'>19</td>
+        <td class='weekday'>20</td>
+        <td class='weekday'>21</td>
+        <td class='weekday'>22</td>
+        <td class='weekday'>23</td>
+        <td class='weekday'>24</td>
+        <td class='weekend'>25</td>
+      </tr>
+      <tr>
+        <td class='weekend'>26</td>
+        <td class='weekday'>27</td>
+        <td class='weekday'>28</td>
+        <td class='weekday'>29</td>
+        <td class='weekday'>30</td>
+        <td class='weekday light-font'>Dec1</td>
+        <td class='weekend light-font'>2</td>
+      </tr>
+      <tr>
+        <td class='weekend light-font'>3</td>
+        <td class='weekday light-font'>4</td>
+        <td class='weekday light-font'>5</td>
+        <td class='weekday light-font'>6</td>
+        <td class='weekday light-font'>7</td>
+        <td class='weekday light-font'>8</td>
+        <td class='weekend light-font'>9</td>
+      </tr>
+    </table>
   </div>
 </body>
 </html>
