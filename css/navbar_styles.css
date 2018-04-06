@@ -1,0 +1,25 @@
+.nav-left-buttons{
+  list-style-type: none;
+}
+
+.close-buttons{
+  list-style-type: none;
+}
+
+li{
+  float: left;
+}
+
+.red-close{
+  display: block;
+  background-color:
+}
+.green-close{
+  display: block;
+
+  background-color:
+}
+.yellow-close{
+  display: block;
+  background-color:
+}
