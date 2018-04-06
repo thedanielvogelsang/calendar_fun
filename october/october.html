@@ -5,22 +5,22 @@
   <link href="../css/navbar_styles.css" type="text/css" rel='stylesheet'>
 </head>
 <body>
-  <nav>
+  <nav id="navbar">
   <ul class="nav-left-buttons">
     <li>
       <ul class="close-buttons">
-        <li class="red-close">O</li>
-        <li class="yellow-close">O</li>
-        <li class="green-close">O</li>
+        <li class="cls-btn"><div class='close-button red-close'></div></li>
+        <li class="cls-btn"><div class='close-button yellow-close'></div></li>
+        <li class="cls-btn"><div class='close-button green-close'></div></li>
       </ul>
     </li>
-    <li>
-    <button type="button" onclick="alert('Hello world!')">
-      Calendars
-    </button>
+    <li class="cal-btn">
+      <button type="button" id="cal-btn-nav" onclick="alert('Hello world!')">
+        Calendars
+      </button>
     </li>
-    <li>
-      <img src="../images/plusButton.png" width="20" height="20">
+    <li class="cal-btn">
+      <img src="../images/plusButton.png" id="plus-btn-nav">
     </li>
   </ul>
   </nav>
