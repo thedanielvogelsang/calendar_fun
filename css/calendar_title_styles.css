@@ -11,9 +11,27 @@
   margin: 0;
 }
 
+ul.month-details {
+  height: 100px;
+}
+
 ul.month-details li{
   padding-top: 0px;
-  line-height: 40px;
+  line-height: 60px;
+  font-family: 'Myriad Pro Light', "Myriad Pro", sans-serif;
+  font-size: 30px;
+}
+
+ul.month-details li:nth-child(2){
+  margin-left: 10px;
+}
+
+li.fina{
+  font-weight: 300;
+}
+
+li.bold{
+  font-weight: 400;
 }
 
 .month-name{
@@ -21,5 +39,9 @@ ul.month-details li{
 }
 
 .year-name{
+  float: left;
+}
+
+li.day-changer{
   float: left;
 }
